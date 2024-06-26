@@ -1,0 +1,51 @@
+body {
+  overflow-y: hidden;
+}
+.App{
+  display: grid;
+  height:100vh;
+  padding: 10px 10px;
+  background-color: rgb(226 228 163 / 42%);
+  font-family: math, 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container{
+  width: 100%;
+  height:100px;
+  margin:8px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  margin: 10px;
+  letter-spacing: 3px;
+  font-family: math;
+  color: rgb(12 12 11);;
+}
+
+.calculator-logo{
+  height: 60px;
+}
+
+.calculator-container{
+  height: 600px;
+  width: 400px;
+  padding: 14px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  background-color:#e7e7e7;
+  box-shadow: 2px 2px 10px rgba(128, 128, 128, 0.2);
+
+}
+
+.row{
+  margin:4px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
